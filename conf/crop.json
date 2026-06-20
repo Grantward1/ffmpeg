@@ -1,0 +1,50 @@
+[
+  [
+    "-i",
+    "--input-file",
+    {
+      "required": true,
+      "help": "Input file to crop"
+    }
+  ],
+  [
+    "-o",
+    "--output-file",
+    {
+      "required": true,
+      "help": "Output file to write cropped video to"
+    }
+  ],
+  [
+    "-W",
+    "--width",
+    {
+      "default": 0,
+      "help": "Number of pixels to crop from the video width."
+    }
+  ],
+  [
+    "-H",
+    "--height",
+    {
+      "default": 0,
+      "help": "Number of pixels to crop from the video height."
+    }
+  ],
+  [
+    "-x",
+    "--start-width",
+    {
+      "default": 0,
+      "help": "The pixel (from left) to start video at"
+    }
+  ],
+  [
+    "-y",
+    "--start-height",
+    {
+      "default": 0,
+      "help": "The pixel (from top) to start video at"
+    }
+  ]
+]

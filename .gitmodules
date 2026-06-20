@@ -1,0 +1,3 @@
+[submodule "getargparse"]
+	path = getargparse
+	url = https://gitlab.com/grantward/getargparse
