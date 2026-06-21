@@ -8,8 +8,6 @@ ARGPARSE_CONF_FILE="$SCRIPT_DIR/conf/crop.json" \
   source "$SCRIPT_DIR/getargparse/helpers.sh"
 
 INPUT_FILE="$(argparse 'input_file')"
-echo $?
-exit 0
 OUTPUT_FILE="$(argparse 'output_file')"
 CROP_FROM_WIDTH="$(argparse 'width')"
 CROP_FROM_HEIGHT="$(argparse 'height')"
